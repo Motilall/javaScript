@@ -17,7 +17,7 @@ let isLoggedIn = true // boolean datatype
 
 
 
-console.log(typeof"red") // to know the dataype of the type
+console.log(typeof "red") // to know the dataype of the type
 /*
     null is object type
     undefined is undefined type ( it is a special type )
