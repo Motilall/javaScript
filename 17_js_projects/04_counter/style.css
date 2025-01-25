@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#counter{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#counterDisplay{
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+}
+
+#counter button{
+    border: 0;
+    padding: .5rem 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#counterAdd{
+    background-color: chartreuse;
+}
+
+#counterSub{
+    background-color: brown;
+}
